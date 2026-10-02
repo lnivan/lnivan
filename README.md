@@ -95,4 +95,4 @@ Most of these projects start from a question. How does a ragdoll hold together? 
 
 ---
 
-<div align="center"><sub>Projects from 2023 to 2026. Each README explains how the project works, how to run it with one command, and what is still rough.</sub></div>
+<div align="center"><sub>Projects from 2018 to 2026. Each README explains how the project works, how to run it with one command, and what is still rough.</sub></div>
