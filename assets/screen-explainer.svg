@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300" role="img" aria-label="Illustration of the Screen Explainer workflow: press Ctrl+Shift+A, drag a box around something on screen, and an explanation appears in a floating window">
+<rect width="480" height="300" fill="#0d1117"/>
+<rect x="24" y="52" width="300" height="220" rx="8" fill="#161b22" stroke="#30363d"/>
+<rect x="24" y="52" width="300" height="22" rx="8" fill="#21262d"/>
+<circle cx="38" cy="63" r="4" fill="#f85149"/><circle cx="52" cy="63" r="4" fill="#d29922"/><circle cx="66" cy="63" r="4" fill="#3fb950"/>
+<g fill="#30363d"><rect x="44" y="92" width="200" height="8" rx="4"/><rect x="44" y="108" width="240" height="8" rx="4"/><rect x="44" y="124" width="170" height="8" rx="4"/>
+<rect x="44" y="214" width="230" height="8" rx="4"/><rect x="44" y="230" width="190" height="8" rx="4"/></g>
+<text x="70" y="184" fill="#c9d1d9" font-size="26" font-family="'Cambria Math', 'STIX Two Math', 'Times New Roman', serif"><tspan font-size="30">∫</tspan><tspan font-size="12" dx="-2" dy="-14">∞</tspan><tspan font-size="12" dx="-12" dy="26">−∞</tspan><tspan dx="6" dy="-12" font-style="italic">e</tspan><tspan font-size="15" dy="-11" font-style="italic">−x²</tspan><tspan dy="11" dx="4" font-style="italic">dx</tspan><tspan> = √π</tspan></text>
+<rect x="0" y="0" width="480" height="300" fill="#000" opacity="0">
+  <animate attributeName="opacity" dur="7s" repeatCount="indefinite" keyTimes="0;0.12;0.14;0.62;0.66;1" values="0;0;0.45;0.45;0;0"/></rect>
+<rect x="56" y="152" width="0" height="0" fill="none" stroke="#58a6ff" stroke-width="2" stroke-dasharray="6 4">
+  <animate attributeName="width" dur="7s" repeatCount="indefinite" keyTimes="0;0.16;0.32;0.66;0.7;1" values="0;0;216;216;0;0"/>
+  <animate attributeName="height" dur="7s" repeatCount="indefinite" keyTimes="0;0.16;0.32;0.66;0.7;1" values="0;0;44;44;0;0"/></rect>
+<g opacity="0"><animate attributeName="opacity" dur="7s" repeatCount="indefinite" keyTimes="0;0.36;0.42;0.9;0.96;1" values="0;0;1;1;0;0"/>
+  <rect x="290" y="96" width="170" height="164" rx="10" fill="#161b22" stroke="#58a6ff"/>
+  <text x="304" y="120" fill="#e6edf3" font-size="14" font-weight="600" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">Gaussian integral</text>
+  <g fill="#8b949e"><rect x="304" y="134" width="140" height="7" rx="3.5"/><rect x="304" y="148" width="122" height="7" rx="3.5"/><rect x="304" y="162" width="134" height="7" rx="3.5"/></g>
+  <text x="304" y="192" fill="#79c0ff" font-size="12" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace">Example:</text>
+  <g fill="#6e7681"><rect x="304" y="202" width="128" height="7" rx="3.5"/><rect x="304" y="216" width="100" height="7" rx="3.5"/><rect x="304" y="230" width="116" height="7" rx="3.5"/></g>
+</g>
+<g opacity="0.35"><animate attributeName="opacity" dur="7s" repeatCount="indefinite" keyTimes="0;0.04;0.1;0.14;1" values="0.35;1;1;0.35;0.35"/>
+<rect x="24" y="14" width="44" height="26" rx="5" fill="#21262d" stroke="#484f58"/><text x="46.0" y="32" text-anchor="middle" fill="#e6edf3" font-size="13" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">Ctrl</text><text x="76" y="32" fill="#8b949e" font-size="14" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">+</text><rect x="88" y="14" width="50" height="26" rx="5" fill="#21262d" stroke="#484f58"/><text x="113.0" y="32" text-anchor="middle" fill="#e6edf3" font-size="13" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">Shift</text><text x="146" y="32" fill="#8b949e" font-size="14" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">+</text><rect x="158" y="14" width="28" height="26" rx="5" fill="#21262d" stroke="#484f58"/><text x="172.0" y="32" text-anchor="middle" fill="#e6edf3" font-size="13" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">A</text></g>
+<text x="464" y="32" text-anchor="end" fill="#6e7681" font-size="12" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">PyQt6 · Gemini API · illustration</text>
+<rect x="0.5" y="0.5" width="479" height="299" fill="none" stroke="#30363d"/></svg>
