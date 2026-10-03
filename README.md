@@ -8,6 +8,41 @@ I'm a maths undergraduate. This is a compendium of small programming projects I'
 
 The repositories were uploaded recently, so their commit dates don't show when each project was written. Each README explains how the project works, how to run it and what is still unfinished.
 
+## Featured
+
+<table>
+  <tr>
+    <td width="55%" valign="middle">
+      <a href="https://github.com/lnivan/wireframe-3d"><img src="assets/wireframe-3d.gif" width="100%" alt="A wireframe cube seen from a camera moving around it"></a>
+    </td>
+    <td width="45%" valign="middle">
+      <h3><a href="https://github.com/lnivan/wireframe-3d">Wireframe 3D</a></h3>
+      A 3D renderer written from scratch, without any graphics or 3D library. It implements its own vector and matrix classes, rotation matrices and perspective projection, and lets you fly a camera around the scene with the keyboard and mouse.<br><br>Related: <a href="https://github.com/lnivan/geometry-viewer-3d">Geometry Viewer 3D</a>, a 3D point viewer built on its own vector and matrix classes.
+      <br><br><sub>Python · Pygame</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="45%" valign="middle">
+      <h3><a href="https://github.com/lnivan/spring-mass-simulator">Spring–Mass Simulator</a></h3>
+      A mass–spring simulator with its own physics module: point masses connected by damped springs, gravity and semi-implicit Euler integration. The demo shows a chain of 51 masses swinging between two heavy anchors.
+      <br><br><sub>Python · Pygame</sub>
+    </td>
+    <td width="55%" valign="middle">
+      <a href="https://github.com/lnivan/spring-mass-simulator"><img src="assets/spring-mass-simulator.gif" width="100%" alt="A chain of masses hanging and oscillating between two anchors"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="55%" valign="middle">
+      <a href="https://github.com/lnivan/asteroids"><img src="assets/asteroids.gif" width="100%" alt="A small ship firing at asteroids that split when hit"></a>
+    </td>
+    <td width="45%" valign="middle">
+      <h3><a href="https://github.com/lnivan/asteroids">Asteroids</a></h3>
+      A version of the arcade game written in a single Pygame file, with inertial ship movement, missiles, screen wrap-around and asteroids that split into smaller pieces when hit. The ship and asteroids are drawn from vertex lists in polar coordinates rather than sprites.
+      <br><br><sub>Python · Pygame</sub>
+    </td>
+  </tr>
+</table>
+
 ## Simulations
 
 <table>
@@ -27,33 +62,21 @@ The repositories were uploaded recently, so their commit dates don't show when e
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/lnivan/spring-mass-simulator"><img src="assets/spring-mass-simulator.gif" width="100%" alt="A chain of masses hanging and oscillating between two anchors"></a>
-      <br><a href="https://github.com/lnivan/spring-mass-simulator"><b>Spring–Mass Simulator</b></a>
-      <br>A chain of point masses connected by damped springs, suspended between two anchors and integrated with semi-implicit Euler.
-      <br><sub>Python · Pygame</sub>
-    </td>
-    <td width="50%" valign="top">
       <a href="https://github.com/lnivan/elastic-ball-collisions"><img src="assets/elastic-ball-collisions.gif" width="100%" alt="Balls of different sizes colliding inside a box"></a>
       <br><a href="https://github.com/lnivan/elastic-ball-collisions"><b>Elastic Ball Collisions</b></a>
       <br>Elastic collisions between balls of different masses, with each impact resolved along the line joining their centres.
       <br><sub>Python · Pygame</sub>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/lnivan/rocket-orbit-sim"><img src="assets/rocket-orbit-sim.gif" width="100%" alt="Zooming out during a flight: the outline of Earth appears with the predicted trajectory around it"></a>
       <br><a href="https://github.com/lnivan/rocket-orbit-sim"><b>Rocket Orbit Sim</b></a>
       <br>A rocket launched from a real-scale Earth under Newtonian gravity, with steerable thrust, zoom and a live prediction of its trajectory.
       <br><sub>Python · Pygame</sub>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/lnivan/n-body-gravity"><img src="assets/n-body-gravity.gif" width="100%" alt="A star, a planet and a moon moving under mutual gravity"></a>
-      <br><a href="https://github.com/lnivan/n-body-gravity"><b>N-Body Gravity</b></a>
-      <br>A gravitational simulation of a star, a planet and its moon, each attracting the others.
-      <br><sub>Python · Pygame</sub>
-    </td>
   </tr>
 </table>
+
+Also: [N-Body Gravity](https://github.com/lnivan/n-body-gravity), a gravitational simulation of a star, a planet and its moon, each attracting the others.
 
 ## Games and graphics
 
@@ -66,31 +89,16 @@ The repositories were uploaded recently, so their commit dates don't show when e
       <br><sub>Python · Pygame</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/lnivan/asteroids"><img src="assets/asteroids.gif" width="100%" alt="A small ship firing at asteroids that split when hit"></a>
-      <br><a href="https://github.com/lnivan/asteroids"><b>Asteroids</b></a>
-      <br>A version of the arcade game with inertial ship movement, screen wrap-around and asteroids that split when hit.
-      <br><sub>Python · Pygame</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <a href="https://github.com/lnivan/parabola-targets"><img src="assets/parabola-targets.gif" width="100%" alt="A ball launched like a slingshot flying past obstacles towards a target"></a>
       <br><a href="https://github.com/lnivan/parabola-targets"><b>Parabola Targets</b></a>
       <br>A physics puzzle game: launch a projectile with a slingshot-style control and get it past the obstacles into the target, across several levels.
       <br><sub>Python · Pygame</sub>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/lnivan/wireframe-3d"><img src="assets/wireframe-3d.gif" width="100%" alt="A wireframe cube seen from a camera moving around it"></a>
-      <br><a href="https://github.com/lnivan/wireframe-3d"><b>Wireframe 3D</b></a>
-      <br>A software wireframe renderer that uses no 3D library: custom vector and matrix classes, perspective projection and a free-flying camera.
-      <br><sub>Python · Pygame</sub>
-    </td>
   </tr>
 </table>
 
-Also: [Geometry Viewer 3D](https://github.com/lnivan/geometry-viewer-3d), a 3D point viewer built on its own vector and matrix classes.
-
 ## Tools
+
 
 <table>
   <tr>
