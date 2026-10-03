@@ -95,6 +95,20 @@ Also: [N-Body Gravity](https://github.com/lnivan/n-body-gravity), a gravitationa
       <br><sub>Python · Pygame</sub>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lnivan/tetris"><img src="assets/tetris.gif" width="100%" alt="Tetris pieces falling, rotating and clearing rows on a 10 by 20 board"></a>
+      <br><a href="https://github.com/lnivan/tetris"><b>Tetris</b></a>
+      <br>A Tetris clone with the seven tetrominoes stored as 5 × 5 matrices, precomputed rotations, soft drop and line clearing.
+      <br><sub>Python · Pygame</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lnivan/terminal-minesweeper"><img src="assets/terminal-minesweeper.gif" width="100%" alt="A recorded game of terminal Minesweeper: coordinates are typed and the board opens up"></a>
+      <br><a href="https://github.com/lnivan/terminal-minesweeper"><b>Terminal Minesweeper</b></a>
+      <br>Minesweeper played in the terminal, with a configurable board size and number of mines and a breadth-first flood fill that opens empty regions. The interface is in Spanish.
+      <br><sub>Python</sub>
+    </td>
+  </tr>
 </table>
 
 ## Tools
