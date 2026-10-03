@@ -4,7 +4,7 @@
 
 </div>
 
-I'm a maths undergraduate. I started programming at around 12 or 13, and this page collects the projects I've built since then, from early high-school experiments to things I'm working on now. Most of them are physics simulations, games and small tools, written in Python.
+I'm a maths undergraduate. This is a compendium of small programming projects I've been doing through the years, mostly early high-school experiments but things I'm working on now. Most of them are physics simulations, games and small tools, written in Python.
 
 The repositories were uploaded recently, so their commit dates don't show when each project was written. Each README explains how the project works, how to run it and what is still unfinished.
 
